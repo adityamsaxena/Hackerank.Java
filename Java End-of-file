@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int i,j;
+        int count = 1; 
+        String s;
+        try{Scanner scan = new Scanner(System.in);
+        for(i=1; i<=count;i++){
+                s = scan.nextLine();
+               System.out.println(i + " " + s);
+               count++;
+        }
+        }catch(Exception e){
+            System.out.println();
+        }
+        
+    }
+}
